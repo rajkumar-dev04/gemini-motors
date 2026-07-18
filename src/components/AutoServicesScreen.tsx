@@ -196,7 +196,7 @@ export default function AutoServicesScreen({ onContactClick }: AutoServicesScree
                 <Layers size={24} />
               </div>
               <h3 className="font-display text-2xl font-bold text-gray-950 mb-4">
-                Industrial Lubricants
+                 Lubricants
               </h3>
               <p className="text-xs text-gray-500 leading-relaxed mb-6">
                 {FUEL_SERVICES[2].description}

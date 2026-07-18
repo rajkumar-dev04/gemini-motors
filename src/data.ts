@@ -71,7 +71,7 @@ export const VEHICLES: Vehicle[] = [
     name: 'Rhino 2825 Tipper',
     category: 'mhcv',
     description: 'A heavy-duty yellow construction and mining tipper truck with a reinforced high-tensile steel bucket and massive hydraulic arm.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDstzF94wZ9r4IGtPl4Ya8sIh6jjhftwnWtikxjmUJwG9XWsxQoY7r91x1-Ovs6Y5Huzt2HEIcpx9xnHlR5Q_5SltZtaSSuuZuR9qOkS3Ao9dOcTCHff8gcYHPYDzDnluHEoaHV2bAXqgk21SgxPYQI91cc-HDyYoFC3bbR1vZzo-dwzRLdVzTO5wIGtfWq4E7LT5xXUig0BTovBtwYiUfp2VOp0Xcp1Rlo7vL0sOc9k09l85b_csYbNA',
+    imageUrl: 'https://www.adraxles.in/gallery/medium_applicazione.JPG',
     specs: [
       { label: 'BODY CAPACITY', value: '16 m³ - 22 m³' },
       { label: 'GRADEABILITY', value: '42% (In 1st Gear)' },
@@ -86,7 +86,7 @@ export const VEHICLES: Vehicle[] = [
     name: 'Switch Mobility EV',
     category: 'ev',
     description: 'Pioneering electric heavy commercial and bus platforms, designed for emissions-free municipal networks and high efficiency.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDTSU6eZEbBXsAkpJSJnYFood6wvTDrzvp9tr1zTErGA_OMUeB-gQK-GAnn-waCvyDnSuQkKuShajPl4T1NlUoPSPEFjrBcbdJ0NHaWbMG919RWKTb9NJQLJz5PhXpPUr24ZebXI4sQI-hh2nl0FLZtqMXkMdVRvAZGn2vLz7LuiqD7M2tuDDCaYYuiVfpeeL5awuSh5-0Cp5IstmFS79mn5AeL7aUKA7m2XNeEQHh__ISmHvxrGF2kgw',
+    imageUrl: 'https://www.switchmobilityev.com/themes/custom/switchmobility/resources/images/SWITCH-EiV-12.webp',
     specs: [
       { label: 'REAL-WORLD RANGE', value: '250 KM+' },
       { label: 'BATTERY TYPE', value: 'Lithium-Ion Pouch' },
@@ -101,7 +101,7 @@ export const GENSETS = [
     id: 'compact-series',
     name: 'Compact Leypower Series',
     range: '5kVA - 125kVA',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDuc1hiQBMIQte_ziDcIifqL6ETjEb3A40I-G2ThopSqCbCru7QrhHEt9LXnYa44hUT0EAf-k83lqvLY-BP5zHUAkhzv22wj93ovqFXACpIqhiKndO9OD1HCJA-vaK08VcNgkkHtkXCcs84wzCBpWf16c0kP02umgJqgUKBdyaJWaWA_KBv_TOISDInYYhXjYUiAvuWcHxm5pCmWdtjlDuxwq9WDMU_zB3Hfazpxn3DvjNEjjCE3NhmJA',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCyVs1QfQHgG0aeanU0vboES3I-0tI2CCk9Gq7N2mog6yWmd3gfCEnxo&s=10',
     description: 'Sound-proof, weatherproof canopy enclosures perfectly suited for residential apartments, small industries, commercial workspaces, and emergency response.',
     features: ['Ultra-silent acoustic canopy', 'Compact footprint', 'Low lube oil consumption', 'CPCB II emission standard compliant']
   },
@@ -109,7 +109,7 @@ export const GENSETS = [
     id: 'industrial-series',
     name: 'Industrial Leypower Series',
     range: '250kVA - 2500kVA',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuABepf_QwtbbrX0YyNwDLkBbJ49SYbVRGriZ8PTcgv76j7lyxVw3LvYLjcHtYMqEuSzbsGQFfjYvYEvdkjRTTbg4ke7XDMGaAy6b2S0064SDF3nlwkNkUQyjl2iamMzPEbRMmKI9nzkIpur25ZijKKK5ot7eSlMycYKlNTV8vpyZ4qNZpdZKBp9V28Mz-5j8QATHTRVQHFeubXwZ2OjtXPGIysPr14pHo1wy6mewaEygDRLoK7UCPs0Uw',
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9BRoHm-cOsbrw7G_s66EgHKrPJLp88EX3kpSJ-d3mY30zTWJqH1UuJCM&s=10',
     description: 'High-capacity heavy-duty engines housed in purpose-built engine rooms for large industrial factories, multi-specialty hospitals, data centers, and mines.',
     features: ['High-performance CRDI engines', 'Heavy steel chassis base', 'Advanced digital controller panel', 'Synchronous multi-generator clustering']
   }
@@ -122,7 +122,7 @@ export const FUEL_SERVICES: FuelService[] = [
     description: 'High-throughput premium petrol and diesel dispensing with strict quality control protocols, operating 24/7 with digital tracking.',
     iconName: 'local_gas_station',
     features: ['BS-VI ultra-clean fuels', 'High-speed flow dispensing', 'Integrated digital payment', 'Automatic density monitors'],
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuD_db4XDk9Tco6k8itFxNX55xDXfZ22skB-Np_OF69CRR4-6yFy-iDToxMoLYWzUtIwV-pXIbetaCTezwUG8gyyZ9kx9E2yVzctEIKvInPQfi8T7gBIVDb0B8pJwMIo_YXh68FYgqdWP4eRqwy4N1xDWz9a-XphYWe9OKQRJQjfiZp-O_yn5RwvgX9OG-b7FiZjxPKGPqqYUzSQ6fsCw6b1QkRiCtPWp5t41hnB_JT4RbXaesmaqBvGFQ'
+    imageUrl: 'https://content.jdmagicbox.com/comp/ambedkar_nagar/l9/9999p5271.5271.211114120522.a6l9/catalogue/indian-oil-petrol-pump-old-jetly-brothers-saidapur-ambedkar-nagar-gyrcbocz8p.jpg'
   },
   {
     id: 'premium-fuels',
@@ -130,7 +130,7 @@ export const FUEL_SERVICES: FuelService[] = [
     description: 'Specialized high-octane additives designed to keep fuel injectors clean, increase mileage, and reduce emissions in high-end heavy-duty engines.',
     iconName: 'verified',
     features: ['High-octane premium additives', 'Friction-reduction elements', 'Lower soot production', 'Active carbon inhibitors'],
-    imageUrl: 'https://images.unsplash.com/photo-1610488737227-2c9749baeb4f?auto=format&fit=crop&w=800&q=80'
+    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8lO8d0BFwryPLPX_FRdreKLfGT5no4UO3QLHIYOAK4YufVTJCB53JXe4U&s=10'
   },
   {
     id: 'lubricants',

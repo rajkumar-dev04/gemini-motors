@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import mrAgnel from "../assets/images/mragnel.jpeg";
 import { motion } from 'motion/react';
 import { 
   GraduationCap, 
@@ -81,12 +82,11 @@ export default function AboutUsScreen({ onContactClick }: AboutUsScreenProps) {
               
               {/* Founder Image */}
               <div className="aspect-square w-full rounded-2xl overflow-hidden bg-slate-100 border border-gray-200 relative">
-                <img 
-                  src="/src/assets/images/mragnel.jpeg" 
-                  alt="Mr. Agnel - Founder"
-                  className="w-full h-full object-cover group-hover:scale-[1.02] transition-transform duration-700"
-                  referrerPolicy="no-referrer"
-                />
+                <img
+  src={mrAgnel}
+  alt="Mr. Agnel - Founder"
+  className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-700"
+/>
               </div>
 
               {/* Founder Tag */}
