@@ -173,7 +173,10 @@ export default function Footer({ setDivision, onContactClick }: FooterProps) {
           <div className="flex items-center gap-2 text-blue-400 text-xs font-bold tracking-wider">
             <ShieldCheck size={16} className="text-blue-400" />
             <span>AUTHORISED DEALER - ASHOK LEYLAND & SWITCH MOBILITY</span>
-            <div className="border-t border-gray-700 pt-6 mt-8 text-center">
+          </div>
+        </div>
+      </div>
+      <div className="border-t border-gray-700 pt-6 mt-8 text-center">
   <p className="text-gray-400 text-sm mb-3">
     Designed & Developed by
   </p>
@@ -192,13 +195,11 @@ export default function Footer({ setDivision, onContactClick }: FooterProps) {
 
       <p className="text-gray-400 text-sm">
         Web Design • Development • Digital Marketing
+        Transforming Businesses with Digital Marketing & Web Solutions
       </p>
     </div>
   </div>
 </div>
-          </div>
-        </div>
-      </div>
     </footer>
   );
 }
