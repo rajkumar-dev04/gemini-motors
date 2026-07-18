@@ -5,6 +5,7 @@
 
 import { ShieldCheck, Globe, Share2, Building2, ChevronRight, Phone, Mail, Instagram } from 'lucide-react';
 import { AppDivision } from '../types';
+import growBizLogo from "../assets/images/growbiz_logo.png";
 import { APP_LOGOS } from '../data';
 import Logo from './Logo';
 
@@ -172,6 +173,29 @@ export default function Footer({ setDivision, onContactClick }: FooterProps) {
           <div className="flex items-center gap-2 text-blue-400 text-xs font-bold tracking-wider">
             <ShieldCheck size={16} className="text-blue-400" />
             <span>AUTHORISED DEALER - ASHOK LEYLAND & SWITCH MOBILITY</span>
+            <div className="border-t border-gray-700 pt-6 mt-8 text-center">
+  <p className="text-gray-400 text-sm mb-3">
+    Designed & Developed by
+  </p>
+
+  <div className="flex items-center justify-center gap-3">
+    <img
+      src={growBizLogo}
+      alt="Grow Biz"
+      className="h-12 w-auto object-contain"
+    />
+
+    <div className="text-left">
+      <h4 className="text-white font-semibold">
+        Grow Biz
+      </h4>
+
+      <p className="text-gray-400 text-sm">
+        Web Design • Development • Digital Marketing
+      </p>
+    </div>
+  </div>
+</div>
           </div>
         </div>
       </div>
