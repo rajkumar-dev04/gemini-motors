@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Motors",
+  "description": "Pioneering automotive excellence, sustainable fuel logistics, green technologies, and commercial vehicle solutions in Goa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
