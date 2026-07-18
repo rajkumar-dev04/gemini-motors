@@ -4,6 +4,7 @@
  */
 
 import React, { useState } from 'react';
+import indianOilHero from "../assets/images/indian_oil.jpg";
 import { 
   Fuel, 
   Send, 
@@ -100,12 +101,11 @@ export default function AutoServicesScreen({ onContactClick }: AutoServicesScree
 
           <div className="relative group">
             <div className="absolute -inset-4 bg-blue-100 rounded-2xl -z-10 transform rotate-2 transition-all duration-700 opacity-80"></div>
-            <img 
-              className="w-full h-[480px] object-cover rounded-xl shadow-2xl border border-gray-200" 
-              src="/src/assets/images/indianoil_pump_motion_1784018549511.jpg"
-              alt="IndianOil Fuel Retailing & Pump - Goa Auto Services"
-              referrerPolicy="no-referrer"
-            />
+            <img
+  className="w-full h-[480px] object-cover rounded-xl shadow-2xl border border-gray-200"
+  src={indianOilHero}
+  alt="IndianOil Fuel Retailing & Pump - Goa Auto Services"
+/>
           </div>
 
         </div>

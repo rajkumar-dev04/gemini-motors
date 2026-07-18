@@ -28,7 +28,7 @@ interface AboutUsScreenProps {
 
 export default function AboutUsScreen({ onContactClick }: AboutUsScreenProps) {
   const companyMilestones = [
-    { year: '2000', title: 'Energy & Fuel Transport', desc: 'Initiated transport operations for petroleum products and furnace oil, partnering with Indian Oil Corporation.' },
+    { year: '1990', title: 'Energy & Fuel Transport', desc: 'Initiated transport operations for petroleum products and furnace oil, partnering with Indian Oil Corporation.' },
     { year: '2005', title: 'Company Established', desc: 'Officially incorporated the company, starting as an authorized dealer for premium Tata spare parts.' },
     { year: '2011', title: 'Green Tech Division', desc: 'Pioneered energy and power-saving industrial engineering solutions division.' },
     { year: '2014', title: 'Tata LCV Dealership', desc: 'Acquired the prestigious Tata Light Commercial Vehicle (LCV) dealership for Goa.' },

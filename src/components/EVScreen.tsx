@@ -4,6 +4,8 @@
  */
 
 import React, { useState } from 'react';
+import switchAward from "../assets/images/switch_ev_award.jpg";
+import switchIEV3 from "../assets/images/switch_iev3.jpg";
 import { motion } from 'motion/react';
 import { 
   Zap, 
@@ -145,12 +147,16 @@ export default function EVScreen({ onContactClick }: EVScreenProps) {
 
               {/* Dynamic Image Canvas */}
               <div className="aspect-[4/3] rounded-xl overflow-hidden bg-slate-950 border border-slate-800 relative group">
-                <img 
-                  src={activeModel === 'eiv12' ? '/src/assets/images/switch_ev_award_1783522186147.jpg' : '/src/assets/images/switch_iev3_specs_1783522202558.jpg'} 
-                  alt={activeModel === 'eiv12' ? 'Switch EiV 12 Electric City Bus' : 'Switch IeV 3 Smart Electric Cargo Truck'} 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102"
-                  referrerPolicy="no-referrer"
-                />
+       <img
+  src={activeModel === "eiv12" ? switchAward : switchIEV3}
+  alt={
+    activeModel === "eiv12"
+      ? "Switch EiV 12 Electric City Bus"
+      : "Switch IeV 3 Smart Electric Cargo Truck"
+  }
+  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+  loading="lazy"
+/>
               </div>
 
               {/* Specs Panel */}

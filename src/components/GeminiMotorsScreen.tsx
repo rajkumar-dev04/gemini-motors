@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useRef } from 'react';
+import indianOilPump from "../assets/images/indian_oil.jpg";
 import { motion } from 'motion/react';
 import { 
   ShieldCheck, 
@@ -198,12 +199,11 @@ export default function GeminiMotorsScreen({ onContactClick }: GeminiMotorsScree
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
               className="bg-slate-800/80 rounded-xl p-1.5 border border-slate-700/60 shadow-2xl relative overflow-hidden group"
             >
-              <img 
-                src="/src/assets/images/indianoil_pump_motion_1784018549511.jpg"
-                alt="IndianOil Petrol Pump Station - Gemini Motors"
-                className="w-full h-[380px] object-cover rounded-lg group-hover:scale-[1.03] transition-transform duration-700"
-                referrerPolicy="no-referrer"
-              />
+             <img
+  src={indianOilPump}
+  alt="IndianOil Petrol Pump Station - Gemini Motors"
+  className="w-full h-[380px] object-cover rounded-lg group-hover:scale-[1.03] transition-transform duration-700"
+/>
               <div className="absolute bottom-4 left-4 right-4 bg-slate-900/90 backdrop-blur-md p-4 rounded-lg border border-slate-800/60">
                 <p className="text-xs font-mono font-bold text-blue-400">OFFICIAL PARTNER</p>
                 <p className="text-sm font-semibold text-white mt-1">Ashok Leyland & Switch Mobility Distributor</p>

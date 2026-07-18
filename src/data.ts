@@ -2,7 +2,16 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
+import indianOil from "./assets/images/indian_oil.jpg";
+import solarPV from "./assets/images/solar_pv.jpg";
+import smartLedLight from "./assets/images/smart_led_light.jpg";
+import sustainableGrowth from "./assets/images/sustainable_growth.jpg";
+import commercialTruck from "./assets/images/commercial_truck.jpg";
+import businessJourney from "./assets/images/business_journey.jpg";
+import fuelSolution from "./assets/images/fuel_solution.jpg";
+import switchAward from "./assets/images/switch_ev_award.jpg";
+import switchIEV3 from "./assets/images/switch_iev3.jpg";
+import mrAgnel from "./assets/images/mragnel.jpeg";
 import { Vehicle, FuelService, GreenTechProduct } from './types';
 
 export const APP_LOGOS = {
@@ -17,7 +26,7 @@ export const VEHICLES: Vehicle[] = [
     name: 'Gemini L-Series 2.5T',
     category: 'lcv',
     description: 'A modern, clean white light commercial delivery truck designed with sharp, aerodynamic lines and a robust chassis for urban distribution.',
-    imageUrl: 'https://lh3.googleusercontent.com/aida-public/AB6AXuA1TJ7_crAddenAjP1WYTJlosMZWIuoy1gDZDIB6Dbx65CKcHvDwUrIzLmhU4muP0nV_rBNRXaavtrV4Zr_yWJpom4tOn6CDb0Zue6CapAeIk2QjTW_l9rM5kmMIi8t4H-eJORXTVT7k7J2EZcVRak4gvskz3OMNLB1fIXlGKupF7EMWTA1MEDBy5s5m_1Ty7PZkx6Jw83dhhD8aVyBqfTyQsF0Sjl6w4IUGEj8zAFnRmC4ZkDfjovu5g',
+    imageUrl: commercialTruck,
     specs: [
       { label: 'PAYLOAD', value: '2,500 KG' },
       { label: 'ENGINE', value: 'Turbo Diesel i4' },
@@ -146,7 +155,7 @@ export const FUEL_SERVICES: FuelService[] = [
     description: 'Mobile on-site fuel delivery for real-time machinery fueling at construction zones and mines. Fleet of high-capacity tankers for wholesale supply chains.',
     iconName: 'local_shipping',
     features: ['Capacities from 12,000L to 20,000L', 'Response times under 4 hours', 'GPS-tracked secure delivery routes', 'Weights & measures verified meters'],
-    imageUrl: '/src/assets/images/indianoil_pump_motion_1784018549511.jpg'
+     imageUrl: indianOil,
   }
 ];
 
@@ -186,7 +195,8 @@ export const GREEN_TECH_PRODUCTS: GreenTechProduct[] = [
       'Net-metering support with state electricity grid',
       'Premium Tier-1 materials with automated weather tracking'
     ],
-    imageUrl: 'https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80',
+    imageUrl:
+  "https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=1200&q=80",
     stats: [
       { label: 'EFFICIENCY', value: '22.4%' },
       { label: 'ROI PERIOD', value: '3.5 Years' },
@@ -222,7 +232,7 @@ export const GREEN_TECH_PRODUCTS: GreenTechProduct[] = [
       'Smart sensor integration for sunrise-sunset automated dimming',
       'Sturdy pressure die-cast aluminum heat sinks'
     ],
-    imageUrl: '/src/assets/images/smart_led_lighting_1783522463403.jpg',
+    imageUrl: smartLedLight,
     stats: [
       { label: 'LUMINOUS FLUX', value: '150 Lm/W' },
       { label: 'LIFESPAN', value: '50,000 Hrs' },
@@ -240,7 +250,7 @@ export const GREEN_TECH_PRODUCTS: GreenTechProduct[] = [
       'Eco-friendly odor control unit with high efficiency carbon filter',
       'Heavy-duty dual shaft shredding blades'
     ],
-    imageUrl: '/src/assets/images/sustainable_growth_1783522169690.jpg',
+     imageUrl: sustainableGrowth,
     stats: [
       { label: 'COMPOST CYCLE', value: '24 Hours' },
       { label: 'VOLUME CUT', value: '90%' },
